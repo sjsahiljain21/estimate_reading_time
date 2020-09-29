@@ -1,0 +1,21 @@
+{% extends "base.html" %} {% block content %}
+
+<h2>Estimate Reading Time</h2>
+  
+<div>
+		<form action="{{ url_for('predict')}}" method="POST">
+		<p>Enter Your Article Here</p>
+		<textarea name="body" rows="6" cols="50"></textarea>
+		<br>
+
+		<input type="submit" class="btn-info" value="Predict!">
+		
+	</form>
+	
+	<br>
+	<br>
+	{{prediction}}
+
+</div>
+
+{% endblock %}
