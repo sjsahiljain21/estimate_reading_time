@@ -96,11 +96,6 @@ spyder==4.1.5
 spyder-kernels==1.9.4
 terminado==0.9.1
 testpath==0.4.4
-toml==0.10.1
-tornado==6.0.4
-tqdm==4.50.0
-traitlets==5.0.4
-typed-ast==1.4.1
 ujson==3.2.0
 urllib3==1.25.10
 watchdog==0.10.3
