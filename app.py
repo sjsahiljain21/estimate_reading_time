@@ -10,10 +10,6 @@ import pandas as pd
 import numpy as np
 from nltk.tokenize import word_tokenize
 
-import os
-path="C:\\Users\\HP\\Downloads\\estimate_reading_time"
-os.chdir(path)
-
 app = Flask(__name__)
 
 
