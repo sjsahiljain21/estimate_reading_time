@@ -1,4 +1,4 @@
-# estimate_reading_time
+# Estimate Reading Time
 
 **Overview:** This model will estimate the time required to read a particular article.
 
